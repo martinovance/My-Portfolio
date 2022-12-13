@@ -57,7 +57,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2018, text: 'Started my journey, kicked up my graphics career', },
-  { year: 2019, text: 'Started web development with the aim of joining the tech world ', },
+  { year: 2019, text: 'Started web development with the aim of joining the tech world', },
   { year: 2020, text: 'Completed front-end development on edx google & focused on JS libraries', },
   { year: 2021, text: 'Built projects using react, next and other libraries.', },
   { year: 2022, text: 'Dived deep into react libraries and UI libraries such as React router dom, react hook form, material-UI etc.', },
@@ -70,5 +70,8 @@ export const gallery = [
   { image: 'images/gallery04.png'},
   { image: 'images/gallery05.png'},
   { image: 'images/gallery06.png'},
-  { image: 'images/gallery07.png'}
+  { image: 'images/gallery07.png'},
+  { image: 'images/gallery08.png'},
+  { image: 'images/gallery09.png'},
+  { image: 'images/hmu.jpg'}
 ]

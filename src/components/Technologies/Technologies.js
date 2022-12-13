@@ -19,27 +19,27 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with HTML & CSS, <br />
-            React.JS & Next.JS
+            Javascript.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiZend Size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>JS Libraries</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma; Coverting designs into full functioning web app
+            Next.JS, React.JS & Libraries such as react router dom, react hook form etc.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase Size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>UI Libraries</ListTitle>
           <ListParagraph>
-            Limited experience with <br />
-            Node.JS
+            Experience with <br />
+            Material-UI, Chakra-UI & Ant-Design
           </ListParagraph>
         </ListContainer>
       </ListItem>
