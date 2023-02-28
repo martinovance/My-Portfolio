@@ -9,12 +9,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Covid-19 Tracker',
-    description:"Using React, it enables access to an API with lots of data, which helps in statistics visualization in other to create awareness of the current state of the pandemic ravaging the world",
+    title: 'Image Pins Website',
+    description:"A social media app and gives different layout of images built with React and uses Sanity for it's content management",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://lvscovid-19tracker.netlify.app',
-    visit: 'https://github.com/martinovance/COVID-19-Tracker',
+    tags: ['React', 'Sanity'],
+    source: 'https://image-pinstack.netlify.app',
+    visit: 'https://github.com/martinovance/Pinstack',
     id: 1,
   },
   {
