@@ -1,17 +1,32 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
-import { FiTwitter, FiInstagram } from 'react-icons/fi';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { FiTwitter, FiInstagram } from "react-icons/fi";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { DiCssdeck } from "react-icons/di";
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+  Span,
+} from "./HeaderStyles";
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignment:"center", color: 'white', marginBottom: '20px' }}>
+        <a
+          style={{
+            display: "flex",
+            alignment: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
       </Link>
@@ -37,11 +52,11 @@ const Header = () =>  (
       <SocialIcons href="https://github.com/martinovance">
         <AiFillGithub style="3rem" />
       </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/martins-ogunsina-107473194/">
+        <AiFillLinkedin style="3rem" />
+      </SocialIcons>
       <SocialIcons href="https://twitter.com/MartinsOgunsina">
         <FiTwitter style="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lance_.martin/">
-        <FiInstagram style="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
