@@ -13,8 +13,8 @@ export const projects = [
     description: "A modern media video streaming plaform with stunning video sections, custom categories and channels pages",
     image: '/images/7.png',
     tags: ['React', 'MUI'],
-    source: 'https://nazochat.netlify.app',
-    visit: 'https://github.com/martinovance/nazo-chat',
+    source: 'https://clipstack.netlify.app',
+    visit: 'https://github.com/martinovance/clipstack',
     id: 1,
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
       image: '/images/6.png',
       tags: ['ReactJS', 'MUI', 'Google Maps'],
     source: 'https://gm-travelcompanion.netlify.app',
-    visit: 'https://github.com/martinovance/clance9ja',
+    visit: 'https://github.com/martinovance/travel_companion',
     id: 2,
   },
   {
