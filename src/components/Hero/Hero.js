@@ -16,7 +16,7 @@ const Hero = (props) => (
         My Portfolio
       </SectionTitle>
       <SectionText>
-        Hi! I'm Martins, a Front-end engineer specialized in building
+        Hi! I'm Martins, a Front-end developer specialized in building
         user-interfaces for websites and applications. Skilled in translating
         design concepts into functional code, creating responsive layouts, and
         ensuring that the user experience is seamless and intuitive.

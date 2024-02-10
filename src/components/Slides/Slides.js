@@ -31,7 +31,7 @@ const Gallery = () => {
   return (
     <Section>
       <SectionDivider />
-      <SectionTitle main>UI Conversion Slide</SectionTitle>
+      <SectionTitle main>More UI Slides</SectionTitle>
       <AppGalleryImages>
         <GalleryImagesContainer ref={scrollRef}>
           {gallery.map(({ image, index }) => (

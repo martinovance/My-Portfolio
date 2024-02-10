@@ -1,12 +1,21 @@
 export const projects = [
   {
     title: 'Image Pins Website',
-    description:"A social media app and gives different layout of images built with React and uses Sanity for it's content management",
+    description:"A social media app that gives different layout of images built with React and uses Sanity for it's data query and content management",
     image: '/images/2.png',
     tags: ['React', 'Sanity'],
     source: 'https://image-pinstack.netlify.app',
     visit: 'https://github.com/martinovance/Pinstack',
     id: 0,
+  },
+  {
+    title: 'ClipStack',
+    description: "A modern media video streaming plaform with stunning video sections, custom categories and channels pages",
+    image: '/images/7.png',
+    tags: ['React', 'MUI'],
+    source: 'https://nazochat.netlify.app',
+    visit: 'https://github.com/martinovance/nazo-chat',
+    id: 1,
   },
   {
     title: 'Travel Companion',
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['ReactJS', 'MUI', 'Google Maps'],
     source: 'https://gm-travelcompanion.netlify.app',
     visit: 'https://github.com/martinovance/clance9ja',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Modern UI/UX Restaurant Website',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['React', 'Figma'],
     source: 'https://g5-dining.netlify.app/#home',
     visit: 'https://github.com/martinovance/g-dining-restaurant',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Shopify',
@@ -33,15 +42,6 @@ export const projects = [
       tags: ['ReactJS', 'Syncfusion'],
     source: 'https://hr-syncfusion-dashboard.netlify.app',
     visit: 'https://github.com/martinovance/syncfusion-dashborad',
-    id: 3,
-  },
-  {
-    title: 'Nazochat',
-    description: "A Realtime Firebase Chat Application using React, ChatEngine, with google and facebook social authentication. It supports Images, sound notifications and creation of multiple room chats",
-    image: '/images/4.png',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://nazochat.netlify.app',
-    visit: 'https://github.com/martinovance/nazo-chat',
     id: 4,
   },
   {
