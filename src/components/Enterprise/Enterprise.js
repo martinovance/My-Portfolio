@@ -56,14 +56,14 @@ const Projects = () => {
             <Highlight>{subDesc}</Highlight>
             {tags.map((tag, i) => (
               <ContentWrapper>
-                <ExternalLinks>1</ExternalLinks>
+                <ExternalLinks>-</ExternalLinks>
                 <Highlight key={i}>{tag}</Highlight>
               </ContentWrapper>
             ))}
             </CardContent>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Web</ExternalLinks>
+              <ExternalLinks>Code</ExternalLinks>
+              <ExternalLinks>Web</ExternalLinks>
             </UtilityList>
           </BlogCard>
       ))}

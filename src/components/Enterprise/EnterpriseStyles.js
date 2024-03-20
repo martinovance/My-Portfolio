@@ -37,8 +37,6 @@ scrollbar-width: none;
   display: none;
 }
 @media ${(props) => props.theme.breakpoints.sm} {
-  display: flex;
-  flex-direction: column;
   padding: 2rem;
   padding-bottom: 0;
 }
@@ -48,11 +46,11 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  min-width: 400px;
+  min-width: 300px;
   min-height: 400px;
   padding: 16px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+    min-width: 100%;
   }
 `;
 
@@ -74,7 +72,7 @@ export const ContentWrapper = styled.section`
 display: flex;
 justify-content: flex-start;
 align-items: center;
-// gap: 8px;
+gap: 8px;
 // @media ${(props) => props.theme.breakpoints.sm} {
 //   display: flex;
 //   flex-direction: column;
@@ -153,7 +151,7 @@ export const UtilityList = styled.ul`
 
 export const ExternalLinks = styled.a`
 color:#d4c0c0;
-font-size: 1.6rem;
+font-size: 1rem;
 padding:1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
