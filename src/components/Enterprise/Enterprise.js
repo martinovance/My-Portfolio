@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import { DisplayWrapper, DisplayCard, Highlight, CardContent, ContentWrapper, BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, TitleContent, UtilityList } from './EnterpriseStyles';
+import { DisplayWrapper, DisplayCard, Highlight, CardContent, ContentWrapper, BlogCard, CardInfo, TagList, ExternalLinks, GridContainer, HeaderThree, Hr, TitleContent } from './EnterpriseStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects, enterprises } from '../../constants/constants';
+import { enterprises } from '../../constants/constants';
 
 const Projects = () => {
   const [displayText, setDisplayText] = useState(enterprises[0].description)
@@ -20,7 +20,7 @@ const Projects = () => {
         divRef.current.scrollLeft += 1
       };
     };
-    const interval = setInterval(scrollHandler, 9);
+    const interval = setInterval(scrollHandler, 20);
 
     return () => {
       clearInterval(interval);
@@ -46,7 +46,7 @@ const Projects = () => {
       </DisplayCard>
     </DisplayWrapper>
     <GridContainer ref={divRef}>
-      {enterprises.map(({ id, title, description, subDesc, source, visit, tags }) => (
+      {enterprises.map(({ id, title, description, subDesc, stacks, tags }) => (
           <BlogCard onClick={() => handleClick(title, description)} key={id}>
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
@@ -61,10 +61,14 @@ const Projects = () => {
               </ContentWrapper>
             ))}
             </CardContent>
-            <UtilityList>
-              <ExternalLinks>Code</ExternalLinks>
-              <ExternalLinks>Web</ExternalLinks>
-            </UtilityList>
+            <div style={{ bottom: 0 }}>
+            <TitleContent>Stack</TitleContent>
+            <TagList>
+              {stacks.map((stack, i) => (
+                <tag key={i}>{stack}</tag>
+              ))}
+            </TagList>
+          </div>
           </BlogCard>
       ))}
     </GridContainer>
