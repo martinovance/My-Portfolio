@@ -48,8 +48,9 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   min-width: 300px;
-  min-height: 500px;
+  min-height: 400px;
   padding: 12px;
+  position: relative;
   @media ${(props) => props.theme.breakpoints.sm} {
     min-width: 100%;
   }
@@ -142,10 +143,18 @@ export const Highlight = styled.p`
 }
 `;
 
+export const Stack = styled.div`
+width: 90%;
+position: absolute;
+bottom: 0;
+padding-bottom: 20px;
+margin-left: auto;
+`;
+
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
-padding: 2rem;
+justify-content: flex-end;
+padding-top: 2rem;
 flex-wrap: wrap;
 gap: 8px;
 `;
@@ -155,15 +164,22 @@ color: #d8bfbf;
 font-size: 1.5rem;
 `;
 
+export const Img = styled.img`
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 5px;
+`
+
 export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1rem;
-padding:1rem 1.5rem;
+padding: 0 0.5rem;
 background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
   background: #801414;
-
 }
 `;
