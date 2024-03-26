@@ -28,7 +28,6 @@ const Projects = () => {
   const [displayText, setDisplayText] = useState(enterprises[0].description);
   const [displayHeader, setDisplayHeader] = useState(enterprises[0].title);
   const divRef = useRef(null);
-  // const displayRef = useRef(null);
 
   useEffect(() => {
     const scrollHandler = () => {
@@ -48,15 +47,21 @@ const Projects = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const myDiv = document.getElementById("up");
+    if (myDiv) {
+      myDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [displayText])
+
   const handleClick = (header, text) => {
     setDisplayText(text);
     setDisplayHeader(header);
-
-    // displayRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <Section nopadding id="projects">
+      <div id="up" />
       <SectionDivider />
       <SectionTitle main>Enterprise Projects</SectionTitle>
       <DisplayWrapper>

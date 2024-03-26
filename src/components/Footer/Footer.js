@@ -1,5 +1,5 @@
 import React from "react";
-import { FiTwitter, FiInstagram } from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -23,7 +23,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:0810 036 1784">0810-336-1784</LinkItem>
+          <LinkItem href="tel:0810 036 1784">+234 810 336 1784</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>

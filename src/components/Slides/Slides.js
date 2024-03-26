@@ -1,13 +1,10 @@
-import React from "react";
-import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+import React, { useEffect, useRef } from "react";
 import { gallery } from "../../constants/constants";
 import {
   Img,
   AppGalleryImages,
   GalleryImagesContainer,
   GalleryImageCard,
-  GalleryImagesArrows,
-  GalleryArrowIcon,
 } from "./SlidesStyles";
 import {
   Section,
@@ -16,24 +13,32 @@ import {
 } from "../../styles/GlobalComponents";
 
 const Gallery = () => {
-  const scrollRef = React.useRef(null);
+  const divRef = useRef(null);
 
-  const scroll = (direction) => {
-    const { current } = scrollRef;
+  useEffect(() => {
+    const scrollHandler = () => {
+      const scrollWidth = divRef.current.scrollWidth;
+      const clientWidth = divRef.current.clientWidth;
 
-    if(direction === "left") {
-      current.scrollLeft -= 300;
-    } else {
-      current.scrollLeft += 300;
-    }
-  };
+      if (divRef.current.scrollLeft + clientWidth >= scrollWidth) {
+        divRef.current.scrollLeft = 0;
+      } else {
+        divRef.current.scrollLeft += 1;
+      }
+    };
+    const interval = setInterval(scrollHandler, 0.5);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <Section>
       <SectionDivider />
-      <SectionTitle main>More UI Slides</SectionTitle>
+      <SectionTitle main>Hit Me up</SectionTitle>
       <AppGalleryImages>
-        <GalleryImagesContainer ref={scrollRef}>
+        <GalleryImagesContainer ref={divRef}>
           {gallery.map(({ image, index }) => (
             <GalleryImageCard
               className="flex__center"
@@ -43,19 +48,6 @@ const Gallery = () => {
             </GalleryImageCard>
           ))}
         </GalleryImagesContainer>
-
-        <GalleryImagesArrows>
-          <GalleryArrowIcon>
-            <BsArrowLeftShort
-              onClick={() => scroll("left")}
-            />
-          </GalleryArrowIcon>
-          <GalleryArrowIcon>
-            <BsArrowRightShort
-              onClick={() => scroll("right")}
-            />
-          </GalleryArrowIcon>
-        </GalleryImagesArrows>
       </AppGalleryImages>
     </Section>
   );

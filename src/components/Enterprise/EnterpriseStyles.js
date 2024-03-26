@@ -51,6 +51,7 @@ export const BlogCard = styled.div`
   min-height: 400px;
   padding: 12px;
   position: relative;
+  cursor: pointer;
   @media ${(props) => props.theme.breakpoints.sm} {
     min-width: 100%;
   }

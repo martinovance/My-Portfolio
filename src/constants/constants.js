@@ -64,6 +64,10 @@ export const TimeLineData = [
 ];
 
 export const gallery = [
+  { image: 'images/gallery11.png'},
+  { image: 'images/gallery12.png'},
+  { image: 'images/gallery13.png'},
+  { image: 'images/gallery14.png'},
   { image: 'images/gallery01.png'},
   { image: 'images/gallery02.png'},
   { image: 'images/gallery03.png'},
@@ -73,7 +77,6 @@ export const gallery = [
   { image: 'images/gallery07.png'},
   { image: 'images/gallery08.png'},
   { image: 'images/gallery09.png'},
-  { image: 'images/hmu.jpg'}
 ]
 
 export const enterprises = [
@@ -81,7 +84,7 @@ export const enterprises = [
     title: 'Polleasy',
     description:"Pollesay is a premier election service that provides users with election strategies on consulting, political surveys, opinion polls, exit polls, constituency profiling, election management, and parties. Polleasy helps to ensure that political/party is abreast of the elections by having first-hand knowledge and information about their standing with electorates, historical voting data, and pattern analysis to show voting trends, news, media, and information management as well as live incidence reporting and results consolidation on election day.",
     subDesc: "Election Management Solution",
-    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/mui.png', '/images/css.png'],
+    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/axios.png', '/images/mui.png', '/images/css.png'],
     tags: [ 'Multi-Tenant', 'Volp Calls', 'WebSockets', 'Data Visualization', 'Polls'],
     id: 0,
   },
@@ -89,7 +92,7 @@ export const enterprises = [
     title: 'Illimikit Web',
     description: "Illimikit Web is an enterprise solution that helps automate and enhance the administration, documentation, tracking, reporting, and delivery of educational content. (1.e courses and publications) for schools. It helps didgitize the learning process for schools. It caters for critical activities such as registration, lecture delivery in digital classrooms, taking assessments, visualizing results, and other school administrative functions.",
     subDesc: "Learning Management System",
-    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/mui.png', '/images/css.png'],
+    images: ['/images/react.png', '/images/reactquery.png', '/images/axios.png', '/images/js.png', '/images/mui.png', '/images/css.png'],
     tags: [ 'User Roles', 'Lectures & Assessments', 'Grading', 'Data Visualization', 'Classrooms'],
     id: 1,
   },
@@ -97,7 +100,7 @@ export const enterprises = [
     title: 'GloEpid',
     description: "GloEpid is a non-profit suite solely focused on infectious disease management, contact tracing, resource management, self-assessment(through chatbot), data aggregation, analysis, and visualization with th ability to predict the next pandemic. Gloepid was built to help manage pandemic and viral diseases like COVID-19 and Ebola outbreaks with the aim of making the world safer and able to predict and prevent future outbreaks",
     subDesc: "Disease Management System",
-    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/mui.png', '/images/css.png'],
+    images: ['/images/js.png', '/images/react.png', '/images/css.png'],
     tags: [ 'Global Status Update', 'Chat Bot', 'Self Test & Feedback'],
     id: 2,
   },
@@ -105,7 +108,7 @@ export const enterprises = [
     title: 'Nakise',
     description: "Nakise is an event management web app that brings the end-end automation solution that digitizes the entire user journey of beneficiaries and other key personas within the digital literacy program management value chain",
     subDesc: "Event Management System",
-    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/mui.png', '/images/css.png'],
+    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/axios.png', '/images/mui.png', '/images/css.png'],
     tags: [ 'Form Builder', 'Rich Text Editor', 'Assessment Module', 'Data Visualization', 'Roles & Permissions'],
     id: 3,
   },
@@ -113,7 +116,7 @@ export const enterprises = [
     title: 'HRMS',
     description: "HR and Payroll solution for the entire circle of human resource and payment managemnt from the enumeration of the staff data to the skills resource, payment, and performance management. The soution supports third party integration with an attendance management solution to track employee presence at work as well as for access management and guest management.",
     subDesc: "HR and Payroll Solution",
-    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/mui.png', '/images/css.png'],
+    images: ['/images/js.png', '/images/react.png', '/images/reactquery.png', '/images/axios.png', '/images/mui.png', '/images/css.png'],
     tags: [ 'Third Party Integration', 'Payment', 'Authentication', 'Work Management'],
     id: 4,
   },
