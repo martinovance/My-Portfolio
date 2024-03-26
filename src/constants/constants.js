@@ -64,9 +64,9 @@ export const TimeLineData = [
 ];
 
 export const gallery = [
-  { image: 'images/gallery11.png'},
   { image: 'images/gallery12.png'},
   { image: 'images/gallery13.png'},
+  { image: 'images/gallery11.png'},
   { image: 'images/gallery14.png'},
   { image: 'images/gallery01.png'},
   { image: 'images/gallery02.png'},
