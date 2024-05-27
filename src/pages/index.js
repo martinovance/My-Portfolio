@@ -4,7 +4,7 @@ import Projects from '../components/Projects/Projects';
 import Enterprise from '../components/Enterprise/Enterprise';
 import Gallery from '../components/Slides/Slides';
 import Technologies from '../components/Technologies/Technologies';
-import Timeline from '../components/TimeLine/TimeLine';
+// import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -15,8 +15,8 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
       <Enterprise />
+      <Projects />
       <Gallery />
       <Technologies />
       {/* <Timeline /> */}

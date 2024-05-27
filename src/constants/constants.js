@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Onboard',
+    description:"A modern video conferencing app for real-time sync and commuication. A mullti-tenant app built with Clerk for auth and user management and Stream.io for video stream functionalities.",
+    image: '/images/8.png',
+    tags: ['Next', 'Typescript', 'Clerk', 'Stream.io', 'Shadcn-ui'],
+    source: 'https://onboard-kohl.vercel.app',
+    visit: 'https://github.com/martinovance/onboard',
+    id: 0,
+  },
+  {
     title: 'Image Pins Website',
     description:"A social media app that gives different layout of images built with React and uses Sanity for it's data query and content management",
     image: '/images/2.png',
     tags: ['React', 'Sanity'],
     source: 'https://image-pinstack.netlify.app',
     visit: 'https://github.com/martinovance/Pinstack',
-    id: 0,
+    id: 1,
   },
   {
     title: 'ClipStack',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['React', 'MUI'],
     source: 'https://clipstack.netlify.app',
     visit: 'https://github.com/martinovance/clipstack',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Travel Companion',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['ReactJS', 'MUI', 'Google Maps'],
     source: 'https://gm-travelcompanion.netlify.app',
     visit: 'https://github.com/martinovance/travel_companion',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Modern UI/UX Restaurant Website',
@@ -33,7 +42,7 @@ export const projects = [
       tags: ['React', 'Figma'],
     source: 'https://g5-dining.netlify.app/#home',
     visit: 'https://github.com/martinovance/g-dining-restaurant',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Shopify',
@@ -42,7 +51,16 @@ export const projects = [
       tags: ['ReactJS', 'Syncfusion'],
     source: 'https://hr-syncfusion-dashboard.netlify.app',
     visit: 'https://github.com/martinovance/syncfusion-dashborad',
-    id: 4,
+    id: 5,
+  },
+  {
+    title: 'Theme-Calc',
+    description: "A modern calculator app with customized theme toggle functionality and compute capabilities for calculations",
+      image: '/images/9.png',
+      tags: ['ReactJS', 'CSS', 'JS'],
+    source: 'https://clairex-calculator.netlify.app',
+    visit: 'https://github.com/martinovance/calculator',
+    id: 6,
   },
   {
     title: 'A Blog Website',
@@ -51,7 +69,7 @@ export const projects = [
       tags: ['HTML', 'CSS', 'JQuery', 'Slick'],
     source: 'https://clance9ja.netlify.app',
     visit: 'https://github.com/martinovance/clance9ja',
-    id: 5,
+    id: 7,
   },
 ];
 
