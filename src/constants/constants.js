@@ -27,13 +27,22 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'Tech Care',
+    description: "A health automation system dashboard with patients data integration and health history population",
+    image: '/images/10.png',
+    tags: ['React', 'MUI', 'React Query'],
+    source: 'https://coal-care.netlify.app',
+    visit: 'https://github.com/martinovance/coalition_tech_care',
+    id: 3,
+  },
+  {
     title: 'Travel Companion',
     description: "An advanced web app that routes you to the restaurants, Hotels and attractions around you based on your traveling location.",
       image: '/images/6.png',
       tags: ['ReactJS', 'MUI', 'Google Maps'],
     source: 'https://gm-travelcompanion.netlify.app',
     visit: 'https://github.com/martinovance/travel_companion',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Modern UI/UX Restaurant Website',
@@ -42,7 +51,7 @@ export const projects = [
       tags: ['React', 'Figma'],
     source: 'https://g5-dining.netlify.app/#home',
     visit: 'https://github.com/martinovance/g-dining-restaurant',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Shopify',
@@ -51,7 +60,7 @@ export const projects = [
       tags: ['ReactJS', 'Syncfusion'],
     source: 'https://hr-syncfusion-dashboard.netlify.app',
     visit: 'https://github.com/martinovance/syncfusion-dashborad',
-    id: 5,
+    id: 6,
   },
   {
     title: 'Theme-Calc',
@@ -60,7 +69,7 @@ export const projects = [
       tags: ['ReactJS', 'CSS', 'JS'],
     source: 'https://clairex-calculator.netlify.app',
     visit: 'https://github.com/martinovance/calculator',
-    id: 6,
+    id: 7,
   },
   {
     title: 'A Blog Website',
@@ -69,7 +78,7 @@ export const projects = [
       tags: ['HTML', 'CSS', 'JQuery', 'Slick'],
     source: 'https://clance9ja.netlify.app',
     visit: 'https://github.com/martinovance/clance9ja',
-    id: 7,
+    id: 8,
   },
 ];
 
