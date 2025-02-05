@@ -30,18 +30,18 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with HTML & CSS, <br />
-            Javascript.
+            Javascript, TypeScript.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiZend Size="3rem" />
         <ListContainer>
-          <ListTitle>JS Libraries</ListTitle>
+          <ListTitle>JS Libraries & State Management</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.JS, React.JS & Libraries such as react router dom, react hook
-            form etc.
+            Next.JS, React.JS, React Context Api & Libraries such as react
+            router dom, react hook form etc.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -51,7 +51,7 @@ const Technologies = () => (
           <ListTitle>UI Libraries</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Material-UI, Chakra-UI & Ant-Design
+            Material-UI, Shadcn-UI, Tailwind CSS, Chakra-UI etc
           </ListParagraph>
         </ListContainer>
       </ListItem>
