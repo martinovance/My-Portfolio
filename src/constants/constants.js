@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Mindful-AI",
+    description:
+      "An AI-powered wellness app that supports mental health through voice journaling, mood tracking, and bot supported calls. Real-time voice interaction, personalized affirmations, and analytics to help users stay mindful.",
+    image: "/images/Mindful2.png",
+    tags: ["React-TS", "Firebase", "Cloudinary", "Shadcn-ui"],
+    source: "https://mindful-ai-therapist.netlify.app/",
+    visit: "https://github.com/martinovance/mindful-ai",
+    id: 0,
+  },
+  {
     title: "Onboard",
     description:
       "A modern video conferencing app for real-time sync and commuication. A mullti-tenant app built with Clerk for auth and user management and Stream.io for video stream functionalities.",
@@ -7,7 +17,7 @@ export const projects = [
     tags: ["Next", "Typescript", "Clerk", "Stream.io", "Shadcn-ui"],
     source: "https://onboard-kohl.vercel.app",
     visit: "https://github.com/martinovance/onboard",
-    id: 0,
+    id: 1,
   },
   {
     title: "Image Pins Website",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["React", "Sanity"],
     source: "https://image-pinstack.netlify.app",
     visit: "https://github.com/martinovance/Pinstack",
-    id: 1,
+    id: 2,
   },
   {
     title: "ClipStack",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["React", "MUI"],
     source: "https://clipstack.netlify.app",
     visit: "https://github.com/martinovance/clipstack",
-    id: 2,
+    id: 3,
   },
   {
     title: "Tech Care",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["React", "MUI", "React Query"],
     source: "https://coal-care.netlify.app",
     visit: "https://github.com/martinovance/coalition_tech_care",
-    id: 3,
+    id: 4,
   },
   {
     title: "Travel Companion",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["ReactJS", "MUI", "Google Maps"],
     source: "https://gm-travelcompanion.netlify.app",
     visit: "https://github.com/martinovance/travel_companion",
-    id: 4,
+    id: 5,
   },
   {
     title: "Animation Web",
@@ -57,7 +67,7 @@ export const projects = [
     tags: ["ReactJS", "Tailwind CSS", "Gsap"],
     source: "https://gaming-animate.netlify.app",
     visit: "https://github.com/martinovance/gaming-animate",
-    id: 11,
+    id: 10,
   },
   {
     title: "Modern UI/UX Restaurant Website",
@@ -67,7 +77,7 @@ export const projects = [
     tags: ["React", "Figma"],
     source: "https://g5-dining.netlify.app/#home",
     visit: "https://github.com/martinovance/g-dining-restaurant",
-    id: 5,
+    id: 6,
   },
   {
     title: "Shopify",
@@ -77,7 +87,7 @@ export const projects = [
     tags: ["ReactJS", "Syncfusion"],
     source: "https://hr-syncfusion-dashboard.netlify.app",
     visit: "https://github.com/martinovance/syncfusion-dashborad",
-    id: 6,
+    id: 7,
   },
   {
     title: "Theme-Calc",
@@ -87,7 +97,7 @@ export const projects = [
     tags: ["ReactJS", "CSS", "JS"],
     source: "https://clairex-calculator.netlify.app",
     visit: "https://github.com/martinovance/calculator",
-    id: 7,
+    id: 8,
   },
   {
     title: "A Blog Website",
@@ -97,7 +107,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JQuery", "Slick"],
     source: "https://clance9ja.netlify.app",
     visit: "https://github.com/martinovance/clance9ja",
-    id: 8,
+    id: 9,
   },
 ];
 
