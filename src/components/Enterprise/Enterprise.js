@@ -58,7 +58,7 @@ const Projects = () => {
   };
 
   return (
-    <Section nopadding id="projects">
+    <Section id="projects">
       <div id="up" />
       <SectionDivider />
       <SectionTitle main>Enterprise Projects</SectionTitle>
