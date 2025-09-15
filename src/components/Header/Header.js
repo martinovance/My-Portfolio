@@ -49,13 +49,25 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/martinovance">
+      <SocialIcons
+        href="https://github.com/martinovance"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillGithub style="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/martins-ogunsina-107473194/">
+      <SocialIcons
+        href="https://www.linkedin.com/in/martins-ogunsina-107473194/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillLinkedin style="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/MartinsOgunsina">
+      <SocialIcons
+        href="https://twitter.com/MartinsOgunsina"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FiTwitter style="3rem" />
       </SocialIcons>
     </Div3>

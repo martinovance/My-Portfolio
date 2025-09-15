@@ -7,6 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
+import { ExternalLinks } from "../Projects/ProjectsStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -23,11 +24,14 @@ const Hero = (props) => (
         intuitive interfaces that merge functionality with great user
         experience.
       </SectionText>
-      <Button
-        onClick={() => (window.location = "https://github.com/martinovance")}
+      <a
+        href="https://github.com/martinovance"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#fff" }}
       >
-        Learn More
-      </Button>
+        <Button>Learn More</Button>
+      </a>
     </LeftSection>
   </Section>
 );
