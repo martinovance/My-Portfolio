@@ -34,7 +34,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <Section>
+    <Section id="about">
       <SectionDivider />
       <SectionTitle main>Hit Me up</SectionTitle>
       <AppGalleryImages>

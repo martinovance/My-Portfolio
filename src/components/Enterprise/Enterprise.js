@@ -47,16 +47,14 @@ const Projects = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const myDiv = document.getElementById("up");
-    if (myDiv) {
-      myDiv.scrollIntoView({ behavior: 'smooth' });
-    }
-  }, [displayText])
-
   const handleClick = (header, text) => {
     setDisplayText(text);
     setDisplayHeader(header);
+
+    const myDiv = document.getElementById("up");
+    if (myDiv) {
+      myDiv.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -91,12 +89,12 @@ const Projects = () => {
                 ))}
               </CardContent>
               <Stack>
-                  <TitleContent>Stack</TitleContent>
-                  <TagList>
-                    {images.map((image, i) => (
-                      <Img src={image} />
-                    ))}
-                  </TagList>
+                <TitleContent>Stack</TitleContent>
+                <TagList>
+                  {images.map((image, i) => (
+                    <Img src={image} />
+                  ))}
+                </TagList>
               </Stack>
             </BlogCard>
           )
